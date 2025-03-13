@@ -24,16 +24,6 @@ public class Music {
                 distanceUp++;
             }
         }
-//        for (int i  = 0; i < this.playList.length; i++) {
-//            if (!this.playList[i].equals(selection)) {
-//                distanceDown++;
-//            }
-//        }
-//        for (int j = 0; j < this.playList.length; j++) {
-//            if (!this.playList[(this.playList.length - 1) - j].equals(selection)){
-//                distanceUp++;
-//            }
-//        }
         if (distanceUp > distanceDown) {
             min = distanceDown;
         } else if (distanceUp < distanceDown && distanceUp != 0) {
